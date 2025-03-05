@@ -13,7 +13,7 @@ import {
 const SidebarMenu = [
   {
     title: "Dashboard",
-    path: "/",
+    path: "/dashboard",
     icon: (
       <div className="w-6 h-6 mt-1">
         <DashboardIcon />
@@ -22,7 +22,7 @@ const SidebarMenu = [
   },
   {
     title: "Accounting",
-    path: "/accounting",
+    path: "/",
     icon: (
       <div className="w-6 h-6 mt-1">
         <AccountingIcon />

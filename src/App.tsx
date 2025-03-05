@@ -16,8 +16,8 @@ function App() {
         <div className="flex flex-row w-screen h-screen overflow-hidden bg-[#F5F5FA]">
           <Sidebar />
           <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/accounting" element={<Accounting />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/" element={<Accounting />} />
             <Route path="/banking" element={<BankingScreen />}></Route>
             <Route path="/reports" element={<ReportsScreen />} />
             <Route path="/contacts" element={<ContactsScreen />} />
