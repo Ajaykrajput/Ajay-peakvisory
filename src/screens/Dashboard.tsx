@@ -23,7 +23,7 @@ const Dashboard = () => {
         {tabs.map((tab) => (
           <button
             key={tab}
-            className={`px-0 py-2 rounded-md ${
+            className={`px-4 py-2 rounded-md ${
               selectedTab === tab
                 ? "text-purple-600 font-semibold border-2 border-border"
                 : "text-muted font-semibold border-2 border-transparent"
