@@ -24,7 +24,7 @@ const ToolTip: React.FC<ToolTipProps> = ({ children, tooltip }) => {
       {tooltip && (
         <span
           ref={tooltipRef}
-          className="invisible z-10 group-hover:visible opacity-0 group-hover:opacity-100 transition bg-primary text-white p-1 px-3 rounded absolute top-full mt-0 whitespace-nowrap"
+          className="invisible z-10 group-hover:visible opacity-0 group-hover:opacity-100 transition bg-primary/70 text-white p-1 px-3 rounded absolute top-full mt-0 whitespace-nowrap"
         >
           {tooltip}
         </span>
